@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello-world:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/hello_world</output-path>
+    <root id="archive" name="hello-world_war.war">
+      <element id="artifact" artifact-name="hello-world:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="PrimeFaces-6.1" />
+          <element id="library" level="project" name="Mojarra-2.4.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
